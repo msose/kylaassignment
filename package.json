@@ -1,0 +1,27 @@
+{
+  "name": "udemycypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test-elecr": "cypress run",
+    "test-chrome": "cypress run --browser chrome",
+    "test-chrome-headed": "cypress run --browser chrome --headed",
+    "test-opheadeden": "cypress run --headed",
+    "smoke-test": "cypress run --spec \"cypress\\e2e\\Smoke\\SmokeFirst.cy.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1",
+    "xlsx": "^0.18.5"
+  }
+
+ 
+}
